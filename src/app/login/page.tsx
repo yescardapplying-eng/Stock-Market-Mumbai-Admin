@@ -77,7 +77,7 @@ export default function AdminLoginPage() {
                 required
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="admin"
+                placeholder="Nagma"
                 className="w-full pl-10 pr-3.5 py-2.5 text-sm rounded-xl border border-slate-300 focus:border-[#16A34A] focus:ring-1 focus:ring-[#16A34A] outline-hidden"
               />
             </div>

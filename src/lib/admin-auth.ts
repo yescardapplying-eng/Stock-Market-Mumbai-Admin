@@ -9,8 +9,8 @@ function getSecret(): string {
 
 export function getExpectedCredentials() {
   return {
-    username: process.env.ADMIN_USERNAME || 'admin',
-    password: process.env.ADMIN_PASSWORD || 'Mumbai@2026#Admin',
+    username: (process.env.ADMIN_USERNAME || 'Nagma').trim(),
+    password: (process.env.ADMIN_PASSWORD || 'Meraj2003k@#').trim(),
   };
 }
 

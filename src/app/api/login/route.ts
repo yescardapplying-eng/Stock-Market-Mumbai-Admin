@@ -8,7 +8,7 @@ import {
 export async function POST(req: NextRequest) {
   const body = await req.json().catch(() => null);
   const username = String(body?.username || '').trim();
-  const password = String(body?.password || '');
+  const password = String(body?.password || '').trim();
 
   const expected = getExpectedCredentials();
   if (username !== expected.username || password !== expected.password) {
