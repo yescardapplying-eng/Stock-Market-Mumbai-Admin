@@ -1,0 +1,35 @@
+{
+  "name": "stock-market-mumbai-admin",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "node server.js",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.4",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.69.0",
+    "mysql2": "^3.24.6",
+    "next": "16.4.5",
+    "postcss": "^8.5.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "typescript": "^5"
+  }
+}
+

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --brand-navy: #0B2545;
+  --brand-green: #16A34A;
+  --neutral-bg: #F8FAFC;
+  --text-charcoal: #1E293B;
+}
+
+html, body {
+  overflow-x: clip;
+  max-width: 100%;
+  background-color: var(--neutral-bg);
+  color: var(--text-charcoal);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
